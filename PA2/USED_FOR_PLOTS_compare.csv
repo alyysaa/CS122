@@ -1,0 +1,25 @@
+Generation Method, Measurement, Selection Sort, Bubble Sort, Insertion Sort
+Sorted N=500,Operations,378247,1504,2999
+Sorted N=500,Time,0,0,4
+Sorted N=1000,Operations,1506497,3004,5999
+Sorted N=1000,Time,2,0,14
+Sorted N=5000,Operations,37532497,15004,29999
+Sorted N=5000,Time,46,0,31
+Sorted N=10000,Operations,150064997,30004,59999
+Sorted N=10000,Time,112,0,47
+Reverse N=500,Operations,503247,1249503,377249
+Reverse N=500,Time,0,1,479
+Reverse N=1000,Operations,2006497,4999003,1504499
+Reverse N=1000,Time,1,4,1956
+Reverse N=5000,Operations,50032497,124995003,37522499
+Reverse N=5000,Time,32,122,48291
+Reverse N=10000,Operations,200064997,499990003,150044999
+Reverse N=10000,Time,130,491,189403
+Random N=500,Operations,382609,911345,184421
+Random N=500,Time,0,1,235
+Random N=1000,Operations,1517351,3899731,752069
+Random N=1000,Time,1,4,971
+Random N=5000,Operations,37603105,98231547,18709991
+Random N=5000,Time,27,126,23714
+Random N=10000,Operations,150222071,391093105,74447528
+Random N=10000,Time,109,512,93990
