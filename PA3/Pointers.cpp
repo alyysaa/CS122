@@ -1,11 +1,11 @@
 #include "Pointers.h"
 
-void task1(string file)
+void task1(string numbersFile)
 {
-  ifstream inFile(file);
+  ifstream inFile(numbersFile);
   if (!inFile)
   {
-    cout << "Task 1: Error opening file" << endl;
+    cout << "Task 1: Error opening file: " << numbersFile << endl;
     exit(-1);
   }
   int num;

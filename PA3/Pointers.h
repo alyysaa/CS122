@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void task1(string file);
+void task1(string numbersFile);
 
 void answerIntegerQuestions(const int num, bool *isMultiple, bool *isSumEven, bool *isPrime);
 
