@@ -1,0 +1,9 @@
+10
+Articles 5
+a the one many some
+Nouns 5
+car cat dog house tree
+Verbs 5
+run jump eat sleep play
+Prepositions 5
+in on under over by
