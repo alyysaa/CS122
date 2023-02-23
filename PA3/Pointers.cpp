@@ -172,7 +172,7 @@ void task3(string wordsFile)
   printWordsArr(nounsArr, numNouns, "Nouns");
   printWordsArr(verbsArr, numVerbs, "Verbs");
   printWordsArr(prepsArr, numPreps, "Prepositions");
-  cout << "\t" << numSentences << " entences generated from the file " << wordsFile << endl;
+  cout << "\t" << numSentences << " sentences generated from the file " << wordsFile << endl;
 
   // generate the sentences
   for (int i = 0; i < numSentences; i++)
