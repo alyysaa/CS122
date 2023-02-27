@@ -1,5 +1,4 @@
 #include "Structs.h"
-#include <fstream>
 
 int main(int argc, char* argv[]) {
     histogramInputLoop();
@@ -8,6 +7,7 @@ int main(int argc, char* argv[]) {
     } else {
         cout << "No file specified for package inventory." << endl;
     }
-
+    cout << "Press enter to exit." << endl;
+    system("read");
     return 0;
 }

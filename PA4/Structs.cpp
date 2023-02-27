@@ -126,7 +126,7 @@ void takePackageInventory(string fileName) {
     inFile.open(fileName);
     if (!inFile) {
         cout << "Error opening file " << fileName << endl;
-        return;
+        exit(1);
     }
 
     string driverName;
