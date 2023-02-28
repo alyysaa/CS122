@@ -144,7 +144,8 @@ void takePackageInventory(string fileName) {
     computeLongestLen(packages, numPackages, &maxLen);
 
     // output package stats
-    printPackageInventory(packages, numPackages, maxLen, driverName, heaviestId, heaviestWeight, avgWeight);
+    // printPackageInventory(packages, numPackages, maxLen, driverName, heaviestId, heaviestWeight, avgWeight);
+    recursivePrint(packages, numPackages, maxLen, driverName, heaviestId, heaviestWeight, avgWeight, 0);
 }
 
 // loads packages from inFile, stores driver name in driverName, stores number of packages in numPackages
@@ -161,9 +162,12 @@ Package *loadPackages(ifstream &inFile, string *driverName, int *numPackages) {
         }
 
     }
+    // reset file pointer and flags
     inFile.clear();
-    inFile.seekg(0,ios::beg);
+    inFile.seekg(0, ios::beg);
+
     getline(inFile, line); //skip driver name
+
     Package *packages = new Package[*numPackages];
     for (int i = 0; i < *numPackages; i++) {
         getline(inFile, line); //skip blank line
@@ -184,7 +188,7 @@ Package *loadPackages(ifstream &inFile, string *driverName, int *numPackages) {
             inFile >> line;
             packages[i].height = stoi(line);
         } catch (exception e) {
-            cout << "Error reading package " << i+1 << endl;
+            cout << "Error reading package " << i + 1 << endl;
         }
 
     }
@@ -230,6 +234,7 @@ void computeLongestLen(const Package *packages, const int numPackages, int *maxL
     }
 }
 
+// prints package stats
 void printPackageInventory(const Package *packages, const int numPackages, const int maxLen, const string driverName, const int heaviestId, const double heaviestWeight, const double avgWeight) {
     cout << "Package inventory for driver: " << driverName << endl;
     cout << "Package count: " << numPackages << endl;
@@ -245,6 +250,7 @@ void printPackageInventory(const Package *packages, const int numPackages, const
     cout.width(maxLen);
     cout << "Height" << endl;
     cout << "---------------------------------------------------------------" << endl;
+
     for (int i = 0; i < numPackages; i++) {
         cout.width(maxLen);
         cout << packages[i].id;
@@ -258,10 +264,48 @@ void printPackageInventory(const Package *packages, const int numPackages, const
         cout << packages[i].height << endl;
     }
 
+
+
     //stats
     cout << "---------------------------------------------------------------" << endl;
     cout << "Heaviest package: " << heaviestId << " (" << heaviestWeight << " lbs)" << endl;
     cout << "Average package weight: " << avgWeight << " lbs" << endl;
 
+}
 
+// recursive print function, effectively the same as the for loop in printPackageInventory
+void recursivePrint(const Package *packages, const int numPackages, const int maxLen, const string driverName, const int heaviestId, const double heaviestWeight, const double avgWeight, const int i) {
+    if (i == 0) {
+        cout << "Package inventory for driver: " << driverName << endl;
+        cout << "Package count: " << numPackages << endl;
+        cout << "---------------------------------------------------------------" << endl;
+        cout.width(maxLen);
+        cout << "ID";
+        cout.width(maxLen);
+        cout << "Weight";
+        cout.width(maxLen);
+        cout << "Width";
+        cout.width(maxLen);
+        cout << "Length";
+        cout.width(maxLen);
+        cout << "Height" << endl;
+        cout << "---------------------------------------------------------------" << endl;
+    }
+    if (i < numPackages) {
+        cout.width(maxLen);
+        cout << packages[i].id;
+        cout.width(maxLen);
+        cout << packages[i].weight;
+        cout.width(maxLen);
+        cout << packages[i].width;
+        cout.width(maxLen);
+        cout << packages[i].length;
+        cout.width(maxLen);
+        cout << packages[i].height << endl;
+        recursivePrint(packages, numPackages, maxLen, driverName, heaviestId, heaviestWeight, avgWeight, i + 1);
+    } else {
+        cout << "---------------------------------------------------------------" << endl;
+        cout << "Heaviest package: " << heaviestId << " (" << heaviestWeight << " lbs)" << endl;
+        cout << "Average package weight: " << avgWeight << " lbs" << endl;
+    }
 }
