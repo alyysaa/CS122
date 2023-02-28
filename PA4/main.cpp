@@ -7,7 +7,7 @@ int main(int argc, char* argv[]) {
     } else {
         cout << "No file specified for package inventory." << endl;
     }
-    cout << "Press enter to exit." << endl;
+    cout << "Press enter to exit.";
     system("read");
     return 0;
 }

@@ -78,14 +78,23 @@ Package* loadPackages(ifstream& inFile, string* driverName, int* numPackages);
 
 /// @brief computes statistics for packages, stores in parameters
 /// @param packages array of Package structs to be read from
-/// @param numPackages number of packages (prefilled)
+/// @param numPackages number of packages (packages.size())
 /// @param heaviestId id of heaviest package (filled in function)
 /// @param heaviestWeight weight of heaviest package (filled in function)
 /// @param avgWeight average weight of packages (filled in function)
 void computePackageStats(const Package* packages, const int numPackages, int* heaviestId, double* heaviestWeight, double* avgWeight);
 
+
 void computeLongestLen(const Package* packages, const int numPackages, int* longestLen);
 
+/// @brief prints package inventory in a table format to console, including driver name, number of packages, heaviest package, and average weight
+/// @param packages array of Package structs to print
+/// @param numPackages numer of packages (packages.size()
+/// @param maxLen the minimum number of characters to represent the longest package field (for table formatting)
+/// @param driverName name of driver
+/// @param heaviestId id of heaviest package
+/// @param heaviestWeight weight of heaviest package
+/// @param avgWeight average weight of all packages
 void printPackageInventory(const Package* packages, const int numPackages, const int maxLen, const string driverName, const int heaviestId, const double heaviestWeight, const double avgWeight);
 
 #endif
