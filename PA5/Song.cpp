@@ -119,7 +119,7 @@ void Song::formattedDisplay(int tw, int aw, int gw, int rw) {
     cout << '\n';
 }
 
-/// @brief returns the rating of the song, could also be accessed through stoi(getAttribute(RATING))
+/// @brief returns the rating of the song, essentially the same as (getAttribute(RATING))
 int Song::getRating() {
     return rating;
 }

@@ -90,7 +90,7 @@ void SongLibrary::computeMaxLengths(int *tw, int *aw, int *gw, int *rw) {
         }
         comp = songs[i].getAttribute(RATING).length();
         if (comp - OFFSET > *rw) { //this isn't too helpful since all ratings will be 1 digit in this case
-            *rw = comp + OFFSET;
+            *rw = comp; // offset is not necessary here, this is the last attribute
         }
     }
 }
@@ -145,7 +145,7 @@ void SongLibrary::performSave(string filename) {
 /// @param att attribute to sort by, updates sortAtt
 void SongLibrary::performSort(SongAttribute att) {
     if (att == NIL) {
-        cout << "\nInvalid sort attribute, unable to sort\n\n";
+        cout << "\nInvalid sort attribute, unable to sort\n";
         return;
     }
     sortAtt = att;
