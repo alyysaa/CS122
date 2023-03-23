@@ -14,7 +14,6 @@ void formattedCout(const string, const int);
 
 enum SongAttribute { TITLE, ARTIST, GENRE, RATING, NIL };
 const string SongAttributeStrings[] = { "title", "artist", "genre", "rating" };
-
 SongAttribute stringToSongAttribute(const string s);
 
 class Song

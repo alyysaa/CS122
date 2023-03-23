@@ -12,7 +12,7 @@ using namespace std;
 
 const int FIRST_OPTION = 1;
 const int LAST_OPTION = 9;
-const int QUIT_OPTION = LAST_OPTION;
+const int QUIT_OPTION = 9;
 
 void displayMenu();
 int getValidChoice();

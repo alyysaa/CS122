@@ -17,6 +17,7 @@ private:
 
     SongAttribute sortAtt;
     void computeMaxLengths(int *, int *, int *, int *);
+
 public:
     SongLibrary();
     SongLibrary(int, Song *);
@@ -26,7 +27,6 @@ public:
 
     int getNumSongs();
     Song *getSongsArray();
-
 
     void displayLibrary();
 

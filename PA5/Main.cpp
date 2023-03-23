@@ -2,5 +2,6 @@
 
 int main() {
     runMusicManager();
+    
     return 0;
 }

@@ -16,7 +16,7 @@ void displayMenu() {
 }
 
 /// @brief gets a valid choice from user, repeats until valid
-/// @return integer from 1 to 9
+/// @return integer from 1 to 9, user's choice
 int getValidChoice() {
     int choice = -1;
     string temp;
@@ -139,7 +139,7 @@ void runMusicManager() {
 
     cout << '\n' << "Welcome to the CPSC 122 Music Manager!!\n";
     int choice = -1;
-    lib.performLoad("library.txt"); //TODO remove
+    //lib.performLoad("library.txt"); //TODO remove
     do {
         displayMenu();
         choice = getValidChoice();

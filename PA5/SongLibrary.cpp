@@ -52,7 +52,7 @@ void SongLibrary::displayLibrary() {
     tw = 6; //length of "rating "
     aw = 7; //length of "artist "
     gw = 6; //length of "genre "
-    rw = 7; //length of "rating " (not necessary unless song max rating exceeds )
+    rw = 7; //length of "rating " (not necessary for ratings with range [1, 5], but it's more general)
     computeMaxLengths(&tw, &aw, &gw, &rw);
     cout << '\n' << "Library: " << numSongs << " songs, sorted by " << SongAttributeStrings[sortAtt] << '\n';
     formattedCout("Title", tw);
