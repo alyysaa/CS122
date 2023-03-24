@@ -40,7 +40,8 @@ int getValidChoice() {
 /// @param choice int 1 to 9, user's choice of action
 /// @param lib library to perform actions on
 void executeUserChoice(int choice, SongLibrary &lib) {
-    string input;
+    string input; //all cases (besides display) use at least one input
+                // if a case needs more than one input, it will declare another string
     switch (choice) {
     case 1:
         lib.displayLibrary();
@@ -102,7 +103,6 @@ void executeUserChoice(int choice, SongLibrary &lib) {
         cout << "Enter the attribute name and value to delete from the library:";
         getline(cin, input, ',');
         getline(cin, value);
-        value = convertToLowercase(value);
         value.erase(0, value.find_first_not_of(' ')); //trim leading whitespace
         Song s;
         int i;
@@ -116,7 +116,6 @@ void executeUserChoice(int choice, SongLibrary &lib) {
         cout << "Enter the attribute name, current value, and new value to edit in the library:";
         getline(cin, input, ',');
         getline(cin, value, ',');
-        value = convertToLowercase(value);
         value.erase(0, value.find_first_not_of(' ')); //trim leading whitespace
         getline(cin, newValue);
         newValue.erase(0, newValue.find_first_not_of(' ')); //trim leading whitespace

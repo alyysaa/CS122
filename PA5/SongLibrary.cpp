@@ -49,7 +49,7 @@ Song *SongLibrary::getSongsArray() {
 /// @brief displays library to console, sorted by sortAtt
 void SongLibrary::displayLibrary() {
     int tw, aw, gw, rw;
-    tw = 6; //length of "rating "
+    tw = 6; //length of "title "
     aw = 7; //length of "artist "
     gw = 6; //length of "genre "
     rw = 7; //length of "rating " (not necessary for ratings with range [1, 5], but it's more general)
@@ -112,7 +112,7 @@ void SongLibrary::performLoad(string filename) {
         getline(in, rating);
         songsCount++;
         if (title == "" || artist == "" || genre == "" || rating == "") {
-            cout << "Invalid file format, load failed at song " << songsCount + 1 << '\n';
+            cout << "Invalid file format, load failed at song " << songsCount << '\n';
             break;
         }
         performAddSong(Song(title, artist, genre, stoi(rating)));
@@ -178,11 +178,11 @@ bool SongLibrary::performSearch(SongAttribute att, string searchAttributeValue, 
     if (att != sortAtt) {
         this->performSort(att);
     }
-        
+
     string attVal = convertToLowercase(searchAttributeValue);
     int left = 0, right = numSongs - 1, mid = (left + right) / 2;
-   
-    if (att == RATING){ // since we reversed the array if sorting by rating, we need to do the same for the search
+
+    if (att == RATING) { // since we reversed the array if sorting by rating, we need to do the same for the search
         while (left <= right) {
             if (convertToLowercase(songs[mid].getAttribute(att)) == attVal) {
                 *foundSong = songs[mid];
@@ -283,5 +283,5 @@ void SongLibrary::performEditSong(int indexToEdit, SongAttribute att, string new
     string old = songs[indexToEdit].getAttribute(att);
     songs[indexToEdit].setAttribute(att, newAttributeValue);
     if (att == sortAtt) this->performSort(att); //ensure array stays sorted
-    cout << "\nEdited song " << indexToEdit+1 << ":\n\t" << SongAttributeStrings[att] << " changed from " << old << " to " << newAttributeValue << "\n";
+    cout << "\nEdited song " << indexToEdit + 1 << ":\n\t" << SongAttributeStrings[att] << " changed from " << old << " to " << newAttributeValue << "\n";
 }
