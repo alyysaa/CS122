@@ -4,10 +4,13 @@
 #include <cstdlib>
 #include <stdexcept>
 
+/// @brief Singly linked list class
+/// @tparam T type of data to store in the list
 template <typename T>
 class LinkedList {
 protected:
 
+    /// @brief Node class, used to store data and a pointer to the next node
     struct Node {
         T value;
         struct Node *next;

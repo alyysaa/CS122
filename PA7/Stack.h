@@ -5,6 +5,8 @@
 // .cpp includes the .h
 #include "LinkedList.cpp"
 
+/// @brief Simple stack class, implemented using a linked list
+/// @tparam T data type to store in the stack
 template <typename T>
 class Stack : private LinkedList<T> {
 public:

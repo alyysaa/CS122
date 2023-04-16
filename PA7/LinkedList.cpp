@@ -1,5 +1,6 @@
 #include "LinkedList.h"
 
+/// @brief Desructor, deletes all nodes in the list
 template <typename T>
 LinkedList<T>::~LinkedList() {
     while (head != NULL) {
@@ -9,13 +10,16 @@ LinkedList<T>::~LinkedList() {
     }
 }
 
-
+/// @brief inserts value at the front of the list
+/// @tparam T type
+/// @param value value to insert
 template <typename T>
 void LinkedList<T>::prepend(T value) {
     Node *newNode = new Node(value, head);
     head = newNode;
 }
 
+/// @brief return value at front of list, remove value from list
 template <typename T>
 T LinkedList<T>::removeFront() {
     if (head == NULL) {
@@ -28,6 +32,7 @@ T LinkedList<T>::removeFront() {
     return value;
 }
 
+/// @return true if list is empty, false otherwise
 template <typename T>
 bool LinkedList<T>::isEmpty() {
     return head == NULL;
