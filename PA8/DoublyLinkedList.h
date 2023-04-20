@@ -10,20 +10,25 @@ protected:
         int data;
         Node *next;
         Node *prev;
-        Node(int data, Node *next = nullptr, Node *prev = nullptr): data(data), next(next), prev(prev) { }
+        Node(int data = 0, Node *next = nullptr, Node *prev = nullptr): data(data), next(next), prev(prev) { }
     };
     Node *head;
     Node *tail;
-    long listSize;
+    int listSize;
 public:
     DoublyLinkedList();
     ~DoublyLinkedList();
 
     void displayList(std::ostream &out = std::cout);
     void destroyList();
-    void addToEnd(int data);
+    void addToEnd(int);
     int deleteAtFront();
-    int deleteNode(int data);
+    int deleteNode(int);
+
+    // Extra credit functions`
+    void addToFront(int);
+    int deleteAtEnd();
+    void insertInOrder(int);
     
 };
 

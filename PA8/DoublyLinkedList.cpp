@@ -42,7 +42,8 @@ void DoublyLinkedList::addToEnd(int data) {
     Node *newNode = new Node(data);
     if (head == nullptr) {
         head = tail = newNode;
-    } else {
+    }
+    else {
         tail->next = newNode;
         newNode->prev = tail;
         tail = newNode;
@@ -61,7 +62,8 @@ int DoublyLinkedList::deleteAtFront() {
     head = head->next;
     if (head == nullptr) {
         tail = nullptr;
-    } else {
+    }
+    else {
         head->prev = nullptr;
     }
     delete temp;
@@ -89,11 +91,66 @@ int DoublyLinkedList::deleteNode(int data) {
     current->prev->next = current->next;
     if (current == tail) {
         tail = current->prev;
-    } else {
+    }
+    else {
         current->next->prev = current->prev;
     }
     int nData = current->data;
     delete current;
     listSize--;
     return nData;
+}
+
+/// @brief adds the specified data to the front of the list
+/// @param data data to prepend
+void DoublyLinkedList::addToFront(int data) {
+    Node *newNode = new Node(data, nullptr, head);
+    if (head == nullptr) {
+        head = tail = newNode;
+    }
+    else {
+        head->prev = newNode;
+        head = newNode;
+    }
+}
+
+/// @brief removes the last node in the list
+/// @return data of the node removed, or -1 if the list is empty
+int DoublyLinkedList::deleteAtEnd() {
+    if (tail == nullptr) return -1;
+    Node *temp = tail;
+    int data = temp->data;
+    if (head == tail) head = tail = nullptr;
+    else {
+        tail = tail->prev;
+        tail->next = nullptr;
+    }
+    delete temp;
+    listSize--;
+    return data;
+}
+
+/// @brief inserts the given data into the list in order
+/// @param data data to insert
+void DoublyLinkedList::insertInOrder(int data){
+    if (head == nullptr){
+        head = tail = new Node(data);
+    } else if (data < head->data){
+        Node *newNode = new Node(data, head, nullptr);
+        head->prev = newNode;
+        head = newNode;
+    } else {
+        Node *current = head;
+        while (current->next != nullptr && current->next->data < data){
+            current = current->next;
+        }
+        Node *newNode = new Node(data, current->next, current);
+        if (current->next == nullptr){
+            tail = newNode;
+        } else {
+            current->next->prev = newNode;
+        }
+        current->next = newNode;
+    }
+
 }

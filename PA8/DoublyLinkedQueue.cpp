@@ -33,7 +33,7 @@ bool DoublyLinkedQueue::isEmpty() {
 }
 
 /// @return size of the queue
-long DoublyLinkedQueue::size() {
+int DoublyLinkedQueue::size() {
     return this->listSize;
 }
 

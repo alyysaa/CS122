@@ -14,7 +14,7 @@ public:
     int dequeue();
     void clear();
     bool isEmpty();
-    long size();
+    int size();
 
     
     void displayQueue(std::ostream &out = std::cout);
