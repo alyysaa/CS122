@@ -1,0 +1,392 @@
+Primes up to 2 are as follows:
+2 
+1 / 2 = 50% primes
+
+Primes up to 3 are as follows:
+2 3 
+2 / 3 = 66.6667% primes
+
+Primes up to 4 are as follows:
+2 3 
+2 / 4 = 50% primes
+
+Primes up to 5 are as follows:
+2 3 5 
+3 / 5 = 60% primes
+
+Primes up to 6 are as follows:
+2 3 5 
+3 / 6 = 50% primes
+
+Primes up to 7 are as follows:
+2 3 5 7 
+4 / 7 = 57.1429% primes
+
+Primes up to 8 are as follows:
+2 3 5 7 
+4 / 8 = 50% primes
+
+Primes up to 9 are as follows:
+2 3 5 7 
+4 / 9 = 44.4444% primes
+
+Primes up to 10 are as follows:
+2 3 5 7 
+4 / 10 = 40% primes
+
+Primes up to 11 are as follows:
+2 3 5 7 11 
+5 / 11 = 45.4545% primes
+
+Primes up to 12 are as follows:
+2 3 5 7 11 
+5 / 12 = 41.6667% primes
+
+Primes up to 13 are as follows:
+2 3 5 7 11 13 
+6 / 13 = 46.1538% primes
+
+Primes up to 14 are as follows:
+2 3 5 7 11 13 
+6 / 14 = 42.8571% primes
+
+Primes up to 15 are as follows:
+2 3 5 7 11 13 
+6 / 15 = 40% primes
+
+Primes up to 16 are as follows:
+2 3 5 7 11 13 
+6 / 16 = 37.5% primes
+
+Primes up to 17 are as follows:
+2 3 5 7 11 13 17 
+7 / 17 = 41.1765% primes
+
+Primes up to 18 are as follows:
+2 3 5 7 11 13 17 
+7 / 18 = 38.8889% primes
+
+Primes up to 19 are as follows:
+2 3 5 7 11 13 17 19 
+8 / 19 = 42.1053% primes
+
+Primes up to 20 are as follows:
+2 3 5 7 11 13 17 19 
+8 / 20 = 40% primes
+
+Primes up to 21 are as follows:
+2 3 5 7 11 13 17 19 
+8 / 21 = 38.0952% primes
+
+Primes up to 22 are as follows:
+2 3 5 7 11 13 17 19 
+8 / 22 = 36.3636% primes
+
+Primes up to 23 are as follows:
+2 3 5 7 11 13 17 19 23 
+9 / 23 = 39.1304% primes
+
+Primes up to 24 are as follows:
+2 3 5 7 11 13 17 19 23 
+9 / 24 = 37.5% primes
+
+Primes up to 25 are as follows:
+2 3 5 7 11 13 17 19 23 
+9 / 25 = 36% primes
+
+Primes up to 26 are as follows:
+2 3 5 7 11 13 17 19 23 
+9 / 26 = 34.6154% primes
+
+Primes up to 27 are as follows:
+2 3 5 7 11 13 17 19 23 
+9 / 27 = 33.3333% primes
+
+Primes up to 28 are as follows:
+2 3 5 7 11 13 17 19 23 
+9 / 28 = 32.1429% primes
+
+Primes up to 29 are as follows:
+2 3 5 7 11 13 17 19 23 29 
+10 / 29 = 34.4828% primes
+
+Primes up to 30 are as follows:
+2 3 5 7 11 13 17 19 23 29 
+10 / 30 = 33.3333% primes
+
+Primes up to 31 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 
+11 / 31 = 35.4839% primes
+
+Primes up to 32 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 
+11 / 32 = 34.375% primes
+
+Primes up to 33 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 
+11 / 33 = 33.3333% primes
+
+Primes up to 34 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 
+11 / 34 = 32.3529% primes
+
+Primes up to 35 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 
+11 / 35 = 31.4286% primes
+
+Primes up to 36 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 
+11 / 36 = 30.5556% primes
+
+Primes up to 37 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 
+12 / 37 = 32.4324% primes
+
+Primes up to 38 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 
+12 / 38 = 31.5789% primes
+
+Primes up to 39 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 
+12 / 39 = 30.7692% primes
+
+Primes up to 40 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 
+12 / 40 = 30% primes
+
+Primes up to 41 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 
+13 / 41 = 31.7073% primes
+
+Primes up to 42 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 
+13 / 42 = 30.9524% primes
+
+Primes up to 43 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 
+14 / 43 = 32.5581% primes
+
+Primes up to 44 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 
+14 / 44 = 31.8182% primes
+
+Primes up to 45 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 
+14 / 45 = 31.1111% primes
+
+Primes up to 46 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 
+14 / 46 = 30.4348% primes
+
+Primes up to 47 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 
+15 / 47 = 31.9149% primes
+
+Primes up to 48 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 
+15 / 48 = 31.25% primes
+
+Primes up to 49 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 
+15 / 49 = 30.6122% primes
+
+Primes up to 50 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 
+15 / 50 = 30% primes
+
+Primes up to 51 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 
+15 / 51 = 29.4118% primes
+
+Primes up to 52 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 
+15 / 52 = 28.8462% primes
+
+Primes up to 53 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 
+16 / 53 = 30.1887% primes
+
+Primes up to 54 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 
+16 / 54 = 29.6296% primes
+
+Primes up to 55 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 
+16 / 55 = 29.0909% primes
+
+Primes up to 56 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 
+16 / 56 = 28.5714% primes
+
+Primes up to 57 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 
+16 / 57 = 28.0702% primes
+
+Primes up to 58 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 
+16 / 58 = 27.5862% primes
+
+Primes up to 59 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 
+17 / 59 = 28.8136% primes
+
+Primes up to 60 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 
+17 / 60 = 28.3333% primes
+
+Primes up to 61 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 
+18 / 61 = 29.5082% primes
+
+Primes up to 62 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 
+18 / 62 = 29.0323% primes
+
+Primes up to 63 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 
+18 / 63 = 28.5714% primes
+
+Primes up to 64 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 
+18 / 64 = 28.125% primes
+
+Primes up to 65 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 
+18 / 65 = 27.6923% primes
+
+Primes up to 66 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 
+18 / 66 = 27.2727% primes
+
+Primes up to 67 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 
+19 / 67 = 28.3582% primes
+
+Primes up to 68 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 
+19 / 68 = 27.9412% primes
+
+Primes up to 69 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 
+19 / 69 = 27.5362% primes
+
+Primes up to 70 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 
+19 / 70 = 27.1429% primes
+
+Primes up to 71 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 
+20 / 71 = 28.169% primes
+
+Primes up to 72 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 
+20 / 72 = 27.7778% primes
+
+Primes up to 73 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 
+21 / 73 = 28.7671% primes
+
+Primes up to 74 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 
+21 / 74 = 28.3784% primes
+
+Primes up to 75 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 
+21 / 75 = 28% primes
+
+Primes up to 76 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 
+21 / 76 = 27.6316% primes
+
+Primes up to 77 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 
+21 / 77 = 27.2727% primes
+
+Primes up to 78 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 
+21 / 78 = 26.9231% primes
+
+Primes up to 79 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 
+22 / 79 = 27.8481% primes
+
+Primes up to 80 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 
+22 / 80 = 27.5% primes
+
+Primes up to 81 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 
+22 / 81 = 27.1605% primes
+
+Primes up to 82 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 
+22 / 82 = 26.8293% primes
+
+Primes up to 83 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 
+23 / 83 = 27.7108% primes
+
+Primes up to 84 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 
+23 / 84 = 27.381% primes
+
+Primes up to 85 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 
+23 / 85 = 27.0588% primes
+
+Primes up to 86 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 
+23 / 86 = 26.7442% primes
+
+Primes up to 87 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 
+23 / 87 = 26.4368% primes
+
+Primes up to 88 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 
+23 / 88 = 26.1364% primes
+
+Primes up to 89 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 
+24 / 89 = 26.9663% primes
+
+Primes up to 90 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 
+24 / 90 = 26.6667% primes
+
+Primes up to 91 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 
+24 / 91 = 26.3736% primes
+
+Primes up to 92 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 
+24 / 92 = 26.087% primes
+
+Primes up to 93 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 
+24 / 93 = 25.8065% primes
+
+Primes up to 94 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 
+24 / 94 = 25.5319% primes
+
+Primes up to 95 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 
+24 / 95 = 25.2632% primes
+
+Primes up to 96 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 
+24 / 96 = 25% primes
+
+Primes up to 97 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 
+25 / 97 = 25.7732% primes
+
+Primes up to 98 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 
+25 / 98 = 25.5102% primes
+
+Primes up to 99 are as follows:
+2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97 
+25 / 99 = 25.2525% primes
+
